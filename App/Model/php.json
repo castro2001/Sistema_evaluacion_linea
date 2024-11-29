@@ -1,0 +1,106 @@
+{
+    "Question":[
+        {
+            "id":1,
+            "question":"¿Qué es PHP?",
+            "options":{
+                "A":"Un lenguaje de programación de bajo nivel",
+                "B":"Un lenguaje de scripting del lado del servidor",
+                "C":"Un lenguaje de marcado como HTML",
+                "D":"Un lenguaje de programación compilado"
+            }        
+        },
+        {
+            "id":2,
+            "question":"¿Cuál es la función de $_POST en PHP? ",
+            "options":{
+                "A":"Almacenar variables de sesión",
+                "B":"Enviar datos mediante URL",
+                "C":"Capturar datos enviados por métodos POST",
+                "D":"Almacenar datos de cookies"
+            }        
+        },
+        {
+            "id":3,
+            "question":"¿Cuál de los siguientes operadores es utilizado para la concatenación de cadenas en PHP?",
+            "options":{
+                "A":"+",
+                "B":"&",
+                "C":".",
+                "D":"#"
+            }        
+        }, 
+        {
+            "id":4,
+            "question":"¿Qué significa PDO en PHP? ",
+            "options":{
+                "A":"PHP Data Objects ",
+                "B":"PHP Data Operations ",
+                "C":"Programming Database Objects ",
+                "D":" Program Design Object "
+            }       
+        }, 
+        {
+            "id":5,
+            "question":"¿Cómo se declara una variable en PHP?",
+            "options":{
+                "A":"var $nombreVariable;",
+                "B":"declare $nombreVariable; ",
+                "C":"$nombreVariable; ",
+                "D":"let nombreVariable;"
+            }        
+        }, 
+        {
+            "id":6,
+            "question":"¿Qué función en PHP se utiliza para incluir un archivo y generar un error fatal si el archivo no se encuentra?",
+            "options":{
+                "A":"include()",
+                "B":" include_once()",
+                "C":"require()",
+                "D":"require_once()"
+            }        
+        },
+        {
+            "id":7,
+            "question":"¿Qué función de PHP devuelve la longitud de una cadena de texto? ",
+            "options":{
+                "A":"  length()",
+                "B":"strlen() ",
+                "C":"count()",
+                "D":"size()"
+            }        
+        }, 
+        {
+            "id":8,
+            "question":"¿Cómo se puede iniciar una sesión en PHP? ",
+            "options":{
+                "A":"session_begin(); ",
+                "B":"start_session(); ",
+                "C":" session_start(); ",
+                "D":" session_init(); "
+            }        
+        },
+
+        {
+            "id":9,
+            "question":"¿Qué diferencia hay entre == y === en PHP? ",
+            "options":{
+                "A":"  == compara valores y === compara referencias de objetos",
+                "B":"== compara valores y === compara valores y tipos de datos ",
+                "C":"No hay diferencia",
+                "D":"=== es un operador de comparación y == es un operador aritmético "
+            }        
+        },
+
+        {
+            "id":10,
+            "question":"¿Qué función se utiliza para escapar caracteres especiales en cadenas antes de ser utilizadas en una consulta SQL? ",
+            "options":{
+                "A":" mysqli_real_escape_string()",
+                "B":"sql_escape()",
+                "C":" mysqli_escape_string()",
+                "D":"escape_sql_string() "
+            }        
+        }
+    ]
+}

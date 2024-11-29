@@ -1,0 +1,27 @@
+{
+    "php":{
+        "answer_1":"Un lenguaje de scripting del lado del servidor",
+        "answer_2":"Capturar datos enviados por métodos POST",
+        "answer_3":".",
+        "answer_4":"PHP Data Objects",
+        "answer_5":"$nombreVariable;",
+        "answer_6":"require()",
+        "answer_7":"strlen()",
+        "answer_8":"session_start();",
+        "answer_9":"`==` compara valores y `===` compara valores y tipos de datos",
+        "answer_10":"mysqli_real_escape_string()"
+    },
+
+    "programacion-basica":{
+        "answer_1":"Un espacio en memoria donde se almacena un valor que puede cambiar",
+        "answer_2":"Repetir un bloque de código un número específico de veces",
+        "answer_3":"La capacidad de un objeto para tomar muchas formas",
+        "answer_4":"SQL",
+        "answer_5":"Cola",
+        "answer_6":"Un arreglo almacena datos en memoria contigua, mientras que una lista enlazada utiliza nodos enlazados",
+        "answer_7":"Una función que se llama a sí misma",
+        "answer_8":"HTTPS encripta los datos transmitidos, mientras que HTTP no",
+        "answer_9":"Error de tiempo de ejecución",
+        "answer_10":"Permitir la colaboración entre desarrolladores y realizar un seguimiento de los cambios en el código"
+    }
+}

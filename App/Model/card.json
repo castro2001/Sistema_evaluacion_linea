@@ -1,0 +1,17 @@
+{
+    "Card":[
+        {
+            "id":1,
+            "title":"Programación basica",
+            "image":"public/image/programacion.jpg",
+            "link":"programacion-basica"
+        },
+        {
+            "id":2,
+            "title":"PHP",
+            "image":"public/image/php.webp",
+            "link":"php"
+
+        }
+    ]
+}

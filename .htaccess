@@ -1,0 +1,16 @@
+RewriteEngine on
+Options All -Indexes
+#Este es la carpeta principal cambiar a la ruta donde va a estar el proyecto
+RewriteBase /Sistema_evaluacion_linea/
+
+# Redirigir la raíz al directorio "public"
+RewriteRule ^$ public/ [L]
+# Opcional: redirigir si solo se pasa el controlador (sin método)
+# Redirigir si solo se pasa el controlador (sin método)
+RewriteRule ^([a-zA-Z0-9]+)$ public/index.php?views=$1 [L]
+
+# Redirigir si se pasa el controlador y el método
+RewriteRule ^([a-zA-Z0-9]+)/([a-zA-Z0-9]+)$ public/index.php?views=$1&action=$2 [L]
+
+# Redirigir si se pasa el controlador y el método y id
+RewriteRule ^([a-zA-Z0-9]+)/([a-zA-Z0-9]+)/([a-zA-Záíúñó0-9\-]+)$ public/index.php?views=$1&action=$2&id=$3 [L]

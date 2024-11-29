@@ -1,0 +1,64 @@
+{
+    "question":[
+        {
+            "id":1,
+            "question":"¿Te consideras una persona no convencional?",
+            "options":["😠", "🙁", "😐", "🙂", "😁"]
+        },
+        
+        {
+            "id":2,
+            "question":"¿Encuentras fascinantes las culturas y puntos de vista diferentes al tuyo?",
+            "options":["😠", "🙁", "😐", "🙂", "😁"]
+        },
+
+        {
+            "id":3,
+            "question":"¿Prefieres la variedad y la espontaneidad en lugar de la rutina y la estructura?",
+            "options":["😠", "🙁", "😐", "🙂", "😁"]
+        },
+
+        {
+            "id":4,
+            "question":"¿Eres curioso/a y abierto/a a nuevas ideas?",
+            "options":["😠", "🙁", "😐", "🙂", "😁"]
+        },
+
+        {
+            "id":5,
+            "question":"¿Te interesa el arte, la música o la literatura no convencionales?",
+            "options":["😠", "🙁", "😐", "🙂", "😁"]
+        },
+
+        {
+            "id":6,
+            "question":"¿Te sientes cómodo/a cuestionando las normas establecidas?",
+            "options":["😠", "🙁", "😐", "🙂", "😁"]
+        },
+
+        {
+            "id":7,
+            "question":"¿Te esfuerzas por alcanzar la perfección en tus tareas?",
+            "options":["😠", "🙁", "😐", "🙂", "😁"]
+        },  
+        
+        {
+            "id":8,
+            "question":"¿Te gusta planificar y organizar tus actividades?",
+            "options":["😠", "🙁", "😐", "🙂", "😁"]
+        },
+
+        {
+            "id":9,
+            "question":"¿Eres detallista y cuidadoso/a en tu trabajo?",
+            "options":["😠", "🙁", "😐", "🙂", "😁"]
+        },
+
+        {
+            "id":10,
+            "question":"¿Te esfuerzas por alcanzar la perfección en tus tareas?",
+            "options":["😠", "🙁", "😐", "🙂", "😁"]
+        }
+    ]
+   
+}

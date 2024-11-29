@@ -1,0 +1,211 @@
+{
+    "php":[
+        {
+            "id":1,
+            "question":"¿Qué es PHP?",
+            "options":{
+                "A":"Un lenguaje de programación de bajo nivel",
+                "B":"Un lenguaje de scripting del lado del servidor",
+                "C":"Un lenguaje de marcado como HTML",
+                "D":"Un lenguaje de programación compilado"
+            }        
+        },
+        {
+            "id":2,
+            "question":"¿Cuál es la función de $_POST en PHP? ",
+            "options":{
+                "A":"Almacenar variables de sesión",
+                "B":"Enviar datos mediante URL",
+                "C":"Capturar datos enviados por métodos POST",
+                "D":"Almacenar datos de cookies"
+            }        
+        },
+        {
+            "id":3,
+            "question":"¿Cuál de los siguientes operadores es utilizado para la concatenación de cadenas en PHP?",
+            "options":{
+                "A":"+",
+                "B":"&",
+                "C":".",
+                "D":"#"
+            }        
+        }, 
+        {
+            "id":4,
+            "question":"¿Qué significa PDO en PHP? ",
+            "options":{
+                "A":"PHP Data Objects ",
+                "B":"PHP Data Operations ",
+                "C":"Programming Database Objects ",
+                "D":" Program Design Object "
+            }       
+        }, 
+        {
+            "id":5,
+            "question":"¿Cómo se declara una variable en PHP?",
+            "options":{
+                "A":"var $nombreVariable;",
+                "B":"declare $nombreVariable; ",
+                "C":"$nombreVariable; ",
+                "D":"let nombreVariable;"
+            }        
+        }, 
+        {
+            "id":6,
+            "question":"¿Qué función en PHP se utiliza para incluir un archivo y generar un error fatal si el archivo no se encuentra?",
+            "options":{
+                "A":"include()",
+                "B":" include_once()",
+                "C":"require()",
+                "D":"require_once()"
+            }        
+        },
+        {
+            "id":7,
+            "question":"¿Qué función de PHP devuelve la longitud de una cadena de texto? ",
+            "options":{
+                "A":"  length()",
+                "B":"strlen() ",
+                "C":"count()",
+                "D":"size()"
+            }        
+        }, 
+        {
+            "id":8,
+            "question":"¿Cómo se puede iniciar una sesión en PHP? ",
+            "options":{
+                "A":"session_begin(); ",
+                "B":"start_session(); ",
+                "C":" session_start(); ",
+                "D":" session_init(); "
+            }        
+        },
+
+        {
+            "id":9,
+            "question":"¿Qué diferencia hay entre == y === en PHP? ",
+            "options":{
+                "A":"  == compara valores y === compara referencias de objetos",
+                "B":"== compara valores y === compara valores y tipos de datos ",
+                "C":"No hay diferencia",
+                "D":"=== es un operador de comparación y == es un operador aritmético "
+            }        
+        },
+
+        {
+            "id":10,
+            "question":"¿Qué función se utiliza para escapar caracteres especiales en cadenas antes de ser utilizadas en una consulta SQL? ",
+            "options":{
+                "A":" mysqli_real_escape_string()",
+                "B":"sql_escape()",
+                "C":" mysqli_escape_string()",
+                "D":"escape_sql_string() "
+            }        
+        }
+    ],
+
+    "programacion-basica":[
+        {
+            "id":1,
+            "question":"¿Qué es una variable en programación?",
+            "options":{
+                "A":"Un conjunto de instrucciones",
+                "B":" Un valor que se mantiene constante",
+                "C":"Un espacio en memoria donde se almacena un valor que puede cambia",
+                "D":" Una función que realiza una operación matemática"
+            }
+        },
+        {
+            "id":2,
+            "question":"¿Cuál es el propósito de un bucle for?",
+            "options":{
+                "A":"Repetir un bloque de código mientras una condición sea verdadera ",
+                "B":"Repetir un bloque de código mientras una condición sea verdadera ",
+                "C":" Repetir un bloque de código un número específico de veces",
+                "D":"Comparar dos valores "
+            }
+        },
+        {
+            "id":3,
+            "question":"¿Qué significa el término 'polimorfismo' en programación orientada a objetos?",
+            "options":{
+                "A":"Herencia de clases ",
+                "B":"Herencia de clases ",
+                "C":"Un método que no tiene retorno ",
+                "D":"El uso de variables globales "
+            }
+        }, 
+        {
+            "id":4,
+            "question":"¿Cuál de los siguientes lenguajes NO es un lenguaje de programación orientado a objetos? ",
+            "options":{
+                "A":"Java ",
+                "B":"Python ",
+                "C":"C++",
+                "D":"SQL "
+            }
+        }, 
+        {
+            "id":5,
+            "question":"¿Cuál de las siguientes estructuras de datos utiliza una política 'primero en entrar, primero en salir' (FIFO)? ",
+            "options":{
+                "A":"Pila ",
+                "B":"Cola ",
+                "C":"Lista enlazada ",
+                "D":" Árbol binario "
+            }
+        }, 
+        {
+            "id":6,
+            "question":"¿Cuál es la diferencia entre un arreglo y una lista enlazada?¿Cuál es la diferencia entre un arreglo y una lista enlazada? ",
+            "options":{
+                "A":"Un arreglo puede crecer dinámicamente, una lista enlazada no ",
+                "B":" Un arreglo almacena datos en memoria contigua, mientras que una lista enlazada utiliza nodos enlazados",
+                "C":" Los arreglos no pueden almacenar tipos de datos, mientras que las listas enlazadas sí ",
+                "D":" No hay diferencia, son lo mismo "
+            }
+        },
+        {
+            "id":7,
+            "question":"¿Qué es una función recursiva? ",
+            "options":{
+                "A":"Una función que llama a otra función ",
+                "B":"Una función que se ejecuta en paralelo ",
+                "C":"Una función que se llama a sí misma ",
+                "D":"Una función que no tiene parámetros "
+            }
+        }, 
+        {
+            "id":8,
+            "question":"¿Cuál es la principal diferencia entre HTTP y HTTPS? ",
+            "options":{
+                "A":"HTTPS utiliza un puerto diferente para enviar datos ",
+                "B":"HTTPS encripta los datos transmitidos, mientras que HTTP no ",
+                "C":" HTTP solo funciona en redes privadas, mientras que HTTPS funciona en Internet ",
+                "D":" No hay diferencia entre HTTP y HTTPS "
+            }
+        },
+        {
+            "id":9,
+            "question":"¿Qué tipo de error es un 'NullPointerException' en Java? ",
+            "options":{
+                "A":"Error de compilación ",
+                "B":"Error de tiempo de ejecución ",
+                "C":"Error de sintaxis ",
+                "D":"Error de lógica "
+            }
+        },
+
+        {
+            "id":10,
+            "question":"¿Cuál es la función principal de un sistema de control de versiones como Git? ",
+            "options":{
+                "A":"Crear copias de seguridad automáticas ",
+                "B":"Permitir la colaboración entre desarrolladores y realizar un seguimiento de los cambios en el código ",
+                "C":"Optimizar el rendimiento de las aplicaciones",
+                "D":"Ejecutar código en paralelo en múltiples servidores "
+            }
+        }
+    
+    ]
+}

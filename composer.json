@@ -1,0 +1,22 @@
+{
+    "name": "castro2001/sistema_evaluacion_linea",
+    "description": "Sistema evaluacion en linea version 1",
+    "type":"project",
+    "require": {
+        "phpmailer/phpmailer": "^6.9"
+     
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "App\\": "App/",
+            "Core\\":"Core/"
+        }
+    },
+    "authors": [
+        {
+            "name": "castro2001",
+            "email": "alexandercastrolino@gmail.com"
+        }
+    ]
+}
